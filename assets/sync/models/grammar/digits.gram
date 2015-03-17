@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = coke |
+	  juice |
+	  water ;
+public <digits> = <digit>+;
